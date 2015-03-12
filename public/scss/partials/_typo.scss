@@ -1,0 +1,115 @@
+/* Proxima Nova */
+
+// Thin
+@font-face {
+	font-family:'ProximaNovaThin';
+	src: url("../fonts/2512C3_1_0.eot");
+	src: url("../fonts/2512C3_1_0.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/2512C3_1_0.woff") format("woff"),
+		 url("../fonts/2512C3_1_0.ttf") format("truetype"),
+		 url("../fonts/2512C3_1_0.svg#wf") format("svg"),
+		 url("../fonts/2512C3_1_0.svgz#wf") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+// Light
+@font-face {
+	font-family:'ProximaNovaLight';
+	src: url("../fonts/2512C3_13_0.eot");
+	src: url("../fonts/2512C3_13_0.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/2512C3_13_0.woff") format("woff"),
+		 url("../fonts/2512C3_13_0.ttf") format("truetype"),
+		 url("../fonts/2512C3_13_0.svg#wf") format("svg"),
+		 url("../fonts/2512C3_13_0.svgz#wf") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+// Regular
+@font-face {
+	font-family:'ProximaNovaRegular';
+	src: url("../fonts/2512C3_10_0.eot");
+	src: url("../fonts/2512C3_10_0.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/2512C3_10_0.woff") format("woff"),
+		 url("../fonts/2512C3_10_0.ttf") format("truetype"),
+		 url("../fonts/2512C3_10_0.svg#wf") format("svg"),
+		 url("../fonts/2512C3_10_0.svgz#wf") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+//Bold
+@font-face {
+	font-family:'ProximaNovaBold';
+	src: url("../fonts/2512C3_14_0.eot");
+	src: url("../fonts/2512C3_14_0.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/2512C3_14_0.woff") format("woff"),
+		 url("../fonts/2512C3_14_0.ttf") format("truetype"),
+		 url("../fonts/2512C3_14_0.svg#wf") format("svg"),
+		 url("../fonts/2512C3_14_0.svgz#wf") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+// Black
+@font-face {
+	font-family:'ProximaNovaBlack';
+	src: url("../fonts/2512C3_12_0.eot");
+	src: url("../fonts/2512C3_12_0.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/2512C3_12_0.woff") format("woff"),
+		 url("../fonts/2512C3_12_0.ttf") format("truetype"),
+		 url("../fonts/2512C3_12_0.svg#wf") format("svg"),
+		 url("../fonts/2512C3_12_0.svgz#wf") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Icomoon icons */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-kuzll9');
+	src:url('../fonts/icomoon.eot?#iefix-kuzll9') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-kuzll9') format('woff'),
+		url('../fonts/icomoon.ttf?-kuzll9') format('truetype'),
+		url('../fonts/icomoon.svg?-kuzll9#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-out:before {
+	content: "\e602";
+}
+.icon-in:before {
+	content: "\e603";
+}
+.icon-message:before {
+	content: "\e604";
+}
+.icon-find-me:before {
+	content: "\e605";
+}
+.icon-new-message:before {
+	content: "\e606";
+}
+.icon-facebook:before {
+	content: "\e600";
+}
+.icon-twitter:before {
+	content: "\e601";
+}

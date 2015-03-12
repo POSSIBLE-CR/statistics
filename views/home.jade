@@ -1,0 +1,31 @@
+extend layout
+
+block content
+	script(src="/js/home.js")
+
+	.landing
+
+		.container
+
+			ul.messages
+				each message, index in messages
+					- var className = (index == 1) ? 'active animated fadeInUp' : 'animated'
+					
+					li.message(class=className)
+
+						blockquote.quote-message
+							p #{message.message}
+							if message.country
+								small from #{message.userDisplayName} in #{message.country}
+							else
+								small from #{message.userDisplayName}
+
+		.dotted-container
+			h1.headline Share a loving message on this holidays.
+
+			ul.login
+				li
+					a(href='/auth/facebook').btn.icon-facebook Sign in with
+
+				li
+					a(href='/auth/twitter').btn.icon-twitter Sign in with
